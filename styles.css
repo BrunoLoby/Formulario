@@ -17,18 +17,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(https://img.freepik.com/fotos-gratis/uma-pintura-digital-de-uma-montanha-com-uma-arvore-colorida-em-primeiro-plano_1340-25699.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .form div input {
     border: 1px solid rgb(255, 255, 255);
-    width: 200px;height: 20px;
+    width: 200px;
+    height: 20px;
+
 }
 
 .form div {
     display: flex;
     flex-direction: column;
 }
-.site h1 {border: 4px solid rgb(0, 0, 0);
-background-color: rgb(211, 218, 215);
+
+.site h1 {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(211, 218, 215);
 }
-body{background-color: rgb(114, 103, 103);}
+
+body {
+    background-color: rgb(114, 103, 103);
+}
